@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# CMake Build Directories
+/build/*
+!/build/.git-keep
+/bin/*
+!/bin/.git-keep
+/lib/*
+!/lib/.git-keep
