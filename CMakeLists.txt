@@ -11,8 +11,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_AR "llvm-ar")
 set(CMAKE_LINKER "ld.lld")
 
-set(CMAKE_CXX_FLAGS_RELEASE "-O2 -Wall")
-set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g3 -Wall")
+set(CMAKE_CXX_FLAGS_RELEASE "-O2 -Wall -stdlib=libc++")
+set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g3 -Wall -stdlib=libc++")
 set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS_DEBUG})
 
 set(CMAKE_C_FLAGS_RELEASE "-O2 -Wall -stdlib=libc")
