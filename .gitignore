@@ -39,5 +39,6 @@
 /lib/*
 !/lib/.git-keep
 
-# Visual Studio cache file
+# IDE cache file
 /.vs
+/.vscode
