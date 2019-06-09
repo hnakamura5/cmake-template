@@ -38,3 +38,6 @@
 !/bin/.git-keep
 /lib/*
 !/lib/.git-keep
+
+# Visual Studio cache file
+/.vs
